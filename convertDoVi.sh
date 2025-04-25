@@ -4,7 +4,7 @@ INPUT="$1"
 OUTPUT="$2"
 
 if [[ -z "$INPUT" ]]; then
-  echo "Usage: convert_dovi input.mkv [optional_output.mp4]"
+  echo "Usage: convertDoVi.sh input.mkv [optional_output.mp4]"
   exit 1
 fi
 
